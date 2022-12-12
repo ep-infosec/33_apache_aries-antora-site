@@ -1,0 +1,14 @@
+= Community
+
+There are many ways to be part of the Apache Aries community.
+You will find suggestions under xref:community/gettinginvolved.adoc[getting involved] .
+
+* xref:community/gettinginvolved.adoc[Getting Involved]
+* xref:community/people.adoc[Who we are]
+* xref:community/mailinglists.adoc[Mailing lists]
+* http://blogs.apache.org/aries/[Aries Group Blog]
+
+You can also find us on IRC, attach freenode and join #apache-aries.
+Our channel is http://irclogs.dankulp.com/logs/irclogger_logs/apache-aries[being logged here].
+
+Our twitter tag is #apache-aries.

@@ -1,0 +1,38 @@
+= The Transaction Control service
+
+If you're new to the Transaction Control service then we suggest that you read the xref:modules/tx-control/quickstart.adoc[Quick Start Page] first.
+
+== Why use the Transaction Control service?
+
+Simply put the Transaction Control service makes resource access easy!
+There's no need to worry about transaction lifecycle or closing connections, and there's built in support for useful features like  connection pooling.
+
+=== The Aries Transaction Control implementations
+
+These modules provide implementations of the TransactionControl service
+
+* xref:modules/tx-control/localTransactions.adoc[The Local Transaction Control Service]
+* xref:modules/tx-control/xaTransactions[The XA Transaction Control Service and Last Participant support]
+
+=== Configuring JDBC access
+
+These modules provide portable JDBC resource providers with built in connection pooling and  transactional resource access
+
+* xref:modules/tx-control/localJDBC.adoc[JDBC with Local Transactions]
+* xref:modules/tx-control/xaJDBC.adoc[JDBC with XA Transactions]
+
+=== Configuring JPA access
+
+These modules provide portable JPA resource providers for transactional resource access
+
+* xref:modules/tx-control/localJPA.adoc[JPA with Local Transactions]
+* xref:modules/tx-control/xaJPA.adoc[JPA with XA Transactions]
+
+=== Advanced topics
+
+* xref:modules/tx-control/coordinator.adoc[Using the Coordinator to optimise Transactions]
+* xref:modules/tx-control/lastResourceGambit.adoc[Making use of the Last Resource Gambit]
+* xref:modules/tx-control/advancedResourceProviders.adoc[Custom Resource Providers]
+* xref:modules/tx-control/advancedScopes.adoc[Advanced Scope control]
+* xref:modules/tx-control/exceptionManagement.adoc[Exception Management]
+* xref:modules/tx-control/spring-tx.adoc[Migrating from Spring and Java EE Declarative Transactions]

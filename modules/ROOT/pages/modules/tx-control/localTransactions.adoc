@@ -1,0 +1,31 @@
+= Aries Local Transaction Control implementation
+
+The Aries Local Transaction control implementation is available at the following maven coordinates:
+
+     <dependency>
+         <groupId>org.apache.aries.tx-control</groupId>
+         <artifactId>tx-control-service-local</artifactId>
+         <version>${aries.tx.control.version}</version>
+     </dependency>
+
+== Using the Transaction Control Service
+
+For the basics of using the Transaction Control Service see the link:quickstart.html[Quick Start Documentation]
+
+As per the Transaction Control specification the Aries Local implementation registers a  TransactionControl service in the OSGi Service Registry with the `osgi.local.enabled` property set to `true`
+
+== Local Transactions
+
+Local transactions occur purely in-memory, and do not coordinate between resources.
+
+This means that Local Transactions are _not recoverable_ in the event of failure, and also that Local Transactions are _not_ atomic across multiple resources.
+In particular, if two  resources are accessed in a transaction (for example two different databases are modified) then it is possible that one resource will be committed and the other rolled back.
+
+Local transactions are therefore best suited to scenarios where only a single resource is accessed within the transaction, or where consistency between resources is not important.
+
+== Working with local transactions
+
+The Local Transaction Control Service supports participants in ongoing transactions via the  `registerLocalResource(LocalResource)` method.
+It does not support XA resources and will throw an `IllegalStateException` if `registerXAResource(XAResource)` is called.
+
+Lifecycle callbacks can be registered against the current scope using the  `preCompletion(Runnable)` and `postCompletion(Consumer)</code> methods.`

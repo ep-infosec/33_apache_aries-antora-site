@@ -1,0 +1,384 @@
+= Apache Aries Downloads
+
+Apache Aries delivers a set of pluggable Java components enabling an enterprise OSGi application programming model.
+
+Apache Aries modules are distributed in source and binary form.
+Alternatively you may checkout the source from Subversion and build Aries yourself.
+Otherwise, the releases below are available for download.
+These http://www.apache.org/dist/incubator/aries/KEYS[KEYS]  can be used to verify the release archive.
+
+All Apache Aries products are distributed under the terms of The Apache Software License (version 2.0).
+See the LICENSE file included in each distribution for additional license information.
+
+The release notes for the current release are link:0.2-incubating-releasenotes.html[here] .
+
+== Samples
+
+The easiest way to use the samples is to download the source zip, navigate to the appropriate 'assembly' module and run mvn install to download all the released  binary artifacts.
+Alternatively you can build the entire source.
+
+[cols=5*,opts=headers]
+|===
+
+|Sub project
+|Module
+|Version
+|Download
+|Comments
+
+
+|Aries Samples
+|
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/samples-0.2-incubating-source-release.zip">+++zip+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/samples-0.2-incubating-source-release.zip.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/samples-0.2-incubating-source-release.zip.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/samples-0.2-incubating-source-release.zip.sha1">+++sha1+++</a>+++)
+|Source, ready to build
+
+|
+|AriesTrader
+|0.2
+|-
+|+++<a href="ariestrader-0.2-incubating.html">+++AriesTrader sample instructions+++</a>+++
+
+|
+|AriesTrader JDBC app
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.samples.ariestrader.jdbc-0.2-incubating.eba">+++eba+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.samples.ariestrader.jdbc-0.2-incubating.eba.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.samples.ariestrader.jdbc-0.2-incubating.eba.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.samples.ariestrader.jdbc-0.2-incubating.eba.sha1">+++sha1+++</a>+++)
+|AriesTrader app with JDBC persistence only
+
+|
+|AriesTrader JPA & JDBC app
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.samples.ariestrader.all-0.2-incubating.eba">+++eba+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.samples.ariestrader.all-0.2-incubating.eba.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.samples.ariestrader.all-0.2-incubating.eba.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.samples.ariestrader.all-0.2-incubating.eba.sha1">+++sha1+++</a>+++)
+|AriesTrader app with all available persistence methods
+
+|
+|Blog
+|0.2
+|-
+|+++<a href="blogsample-0.2-incubating.html">+++Blog Sample instructions+++</a>+++
+
+|
+|Blog JDBC app
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.samples.blog.jdbc.eba-0.2-incubating.eba">+++eba+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.samples.blog.jdbc.eba-0.2-incubating.eba.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.samples.blog.jdbc.eba-0.2-incubating.eba.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.samples.blog.jdbc.eba-0.2-incubating.eba.sha1">+++sha1+++</a>+++)
+|Blog app based on JDBC
+
+|
+|Blog JPA app
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.samples.blog.jpa.eba-0.2-incubating.eba">+++eba+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.samples.blog.jpa.eba-0.2-incubating.eba.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.samples.blog.jpa.eba-0.2-incubating.eba.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.samples.blog.jpa.eba-0.2-incubating.eba.sha1">+++sha1+++</a>+++)
+|Blog app based on JPA
+
+|
+|Blueprint HelloWorld
+|0.2
+|-
+|
+
+|
+|Blueprint ID Verifier
+|0.2
+|-
+|
+|===
+
+== Project components
+
+[cols=6*,opts=headers]
+|===
+|Sub project
+|Module
+|Version
+|Binary
+|Source
+|Comments
+
+|Application
+|
+|0.2
+|-
+|+++<a href="http://archive.apache.org/dist/incubator/aries/application-0.2-incubating-source-release.zip">+++zip+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/application-0.2-incubating-source-release.zip.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/application-0.2-incubating-source-release.zip.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/application-0.2-incubating-source-release.zip.sha1">+++sha1+++</a>+++)
+|
+
+|
+|application-api
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.api-0.2-incubating.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.api-0.2-incubating.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.api-0.2-incubating.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.api-0.2-incubating.jar.sha1">+++sha1+++</a>+++)
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.api-0.2-incubating-sources.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.api-0.2-incubating-sources.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.api-0.2-incubating-sources.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.api-0.2-incubating-sources.jar.sha1">+++sha1+++</a>+++)
+|
+
+|
+|application-bundle
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application-0.2-incubating.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application-0.2-incubating.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application-0.2-incubating.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application-0.2-incubating.jar.sha1">+++sha1+++</a>+++)
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application-0.2-incubating-sources.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application-0.2-incubating-sources.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application-0.2-incubating-sources.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application-0.2-incubating-sources.jar.sha1">+++sha1+++</a>+++)
+|
+
+|
+|application-converters
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.converters-0.2-incubating.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.converters-0.2-incubating.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.converters-0.2-incubating.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.converters-0.2-incubating.jar.sha1">+++sha1+++</a>+++)
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.converters-0.2-incubating-sources.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.converters-0.2-incubating-sources.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.converters-0.2-incubating-sources.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.converters-0.2-incubating-sources.jar.sha1">+++sha1+++</a>+++)
+|
+
+|
+|application-install
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.install-0.2-incubating.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.install-0.2-incubating.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.install-0.2-incubating.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.install-0.2-incubating.jar.sha1">+++sha1+++</a>+++)
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.install-0.2-incubating-sources.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.install-0.2-incubating-sources.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.install-0.2-incubating-sources.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.install-0.2-incubating-sources.jar.sha1">+++sha1+++</a>+++)
+|
+
+|
+|application-management
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.management-0.2-incubating.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.management-0.2-incubating.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.management-0.2-incubating.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.management-0.2-incubating.jar.sha1">+++sha1+++</a>+++)
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.management-0.2-incubating-sources.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.management-0.2-incubating-sources.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.management-0.2-incubating-sources.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.management-0.2-incubating-sources.jar.sha1">+++sha1+++</a>+++)
+|
+
+|
+|application-obr-resolver
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.resolver.obr-0.2-incubating.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.resolver.obr-0.2-incubating.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.resolver.obr-0.2-incubating.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.resolver.obr-0.2-incubating.jar.sha1">+++sha1+++</a>+++)
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.resolver.obr-0.2-incubating-sources.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.resolver.obr-0.2-incubating-sources.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.resolver.obr-0.2-incubating-sources.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.resolver.obr-0.2-incubating-sources.jar.sha1">+++sha1+++</a>+++)
+|
+
+|
+|application-runtime
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.runtime-0.2-incubating.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.runtime-0.2-incubating.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.runtime-0.2-incubating.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.runtime-0.2-incubating.jar.sha1">+++sha1+++</a>+++)
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.runtime-0.2-incubating-sources.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.runtime-0.2-incubating-sources.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.runtime-0.2-incubating-sources.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.runtime-0.2-incubating-sources.jar.sha1">+++sha1+++</a>+++)
+|
+
+|
+|application-utils
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.utils-0.2-incubating.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.utils-0.2-incubating.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.utils-0.2-incubating.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.utils-0.2-incubating.jar.sha1">+++sha1+++</a>+++)
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.utils-0.2-incubating-sources.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.utils-0.2-incubating-sources.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.utils-0.2-incubating-sources.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.application.utils-0.2-incubating-sources.jar.sha1">+++sha1+++</a>+++)
+|
+
+|Blueprint
+|
+|0.2
+|-
+|+++<a href="http://archive.apache.org/dist/incubator/aries/blueprint-0.2-incubating-source-release.zip">+++zip+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/blueprint-0.2-incubating-source-release.zip.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/blueprint-0.2-incubating-source-release.zip.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/blueprint-0.2-incubating-source-release.zip.sha1">+++sha1+++</a>+++)
+|
+
+|
+|blueprint-api
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.blueprint.api-0.2-incubating.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.blueprint.api-0.2-incubating.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.blueprint.api-0.2-incubating.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.blueprint.api-0.2-incubating.jar.sha1">+++sha1+++</a>+++)
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.blueprint.api-0.2-incubating-sources.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.blueprint.api-0.2-incubating-sources.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.blueprint.api-0.2-incubating-sources.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.blueprint.api-0.2-incubating-sources.jar.sha1">+++sha1+++</a>+++)
+|
+
+|
+|blueprint-bundle
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.blueprint-0.2-incubating.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.blueprint-0.2-incubating.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.blueprint-0.2-incubating.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.blueprint-0.2-incubating.jar.sha1">+++sha1+++</a>+++)
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.blueprint-0.2-incubating-sources.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.blueprint-0.2-incubating-sources.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.blueprint-0.2-incubating-sources.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.blueprint-0.2-incubating-sources.jar.sha1">+++sha1+++</a>+++)
+|An Uber bundle collecting all the required sub-modules that provide the
+blueprint implementation
+
+|
+|blueprint-cm
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.blueprint.cm-0.2-incubating.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.blueprint.cm-0.2-incubating.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.blueprint.cm-0.2-incubating.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.blueprint.cm-0.2-incubating.jar.sha1">+++sha1+++</a>+++)
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.blueprint.cm-0.2-incubating-sources.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.blueprint.cm-0.2-incubating-sources.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.blueprint.cm-0.2-incubating-sources.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.blueprint.cm-0.2-incubating-sources.jar.sha1">+++sha1+++</a>+++)
+|
+
+|
+|blueprint-core
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.blueprint.core-0.2-incubating.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.blueprint.core-0.2-incubating.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.blueprint.core-0.2-incubating.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.blueprint.core-0.2-incubating.jar.sha1">+++sha1+++</a>+++)
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.blueprint.core-0.2-incubating-sources.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.blueprint.core-0.2-incubating-sources.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.blueprint.core-0.2-incubating-sources.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.blueprint.core-0.2-incubating-sources.jar.sha1">+++sha1+++</a>+++)
+|
+
+|eba-maven-plugin
+|
+|0.2
+|-
+|+++<a href="http://archive.apache.org/dist/incubator/aries/eba-maven-plugin-0.2-incubating-source-release.zip">+++zip+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/eba-maven-plugin-0.2-incubating-source-release.zip.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/eba-maven-plugin-0.2-incubating-source-release.zip.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/eba-maven-plugin-0.2-incubating-source-release.zip.sha1">+++sha1+++</a>+++)
+|
+
+|
+|-
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/eba-maven-plugin-0.2-incubating.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/eba-maven-plugin-0.2-incubating.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/eba-maven-plugin-0.2-incubating.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/eba-maven-plugin-0.2-incubating.jar.sha1">+++sha1+++</a>+++)
+|+++<a href="http://archive.apache.org/dist/incubator/aries/eba-maven-plugin-0.2-incubating-sources.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/eba-maven-plugin-0.2-incubating-sources.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/eba-maven-plugin-0.2-incubating-sources.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/eba-maven-plugin-0.2-incubating-sources.jar.sha1">+++sha1+++</a>+++)
+|
+
+|JMX
+|
+|0.2
+|-
+|+++<a href="http://archive.apache.org/dist/incubator/aries/jmx-0.2-incubating-source-release.zip">+++zip+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/jmx-0.2-incubating-source-release.zip.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/jmx-0.2-incubating-source-release.zip.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/jmx-0.2-incubating-source-release.zip.sha1">+++sha1+++</a>+++)
+|
+
+|
+|jmx-api
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.api-0.2-incubating.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.api-0.2-incubating.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.api-0.2-incubating.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.api-0.2-incubating.jar.sha1">+++sha1+++</a>+++)
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.api-0.2-incubating-sources.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.api-0.2-incubating-sources.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.api-0.2-incubating-sources.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.api-0.2-incubating-sources.jar.sha1">+++sha1+++</a>+++)
+|
+
+|
+|jmx-blueprint-api
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.blueprint.api-0.2-incubating.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.blueprint.api-0.2-incubating.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.blueprint.api-0.2-incubating.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.blueprint.api-0.2-incubating.jar.sha1">+++sha1+++</a>+++)
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.blueprint.api-0.2-incubating-sources.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.blueprint.api-0.2-incubating-sources.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.blueprint.api-0.2-incubating-sources.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.blueprint.api-0.2-incubating-sources.jar.sha1">+++sha1+++</a>+++)
+|
+
+|
+|jmx-blueprint-bundle
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.blueprint-0.2-incubating.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.blueprint-0.2-incubating.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.blueprint-0.2-incubating.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.blueprint-0.2-incubating.jar.sha1">+++sha1+++</a>+++)
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.blueprint-0.2-incubating-sources.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.blueprint-0.2-incubating-sources.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.blueprint-0.2-incubating-sources.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.blueprint-0.2-incubating-sources.jar.sha1">+++sha1+++</a>+++)
+|
+
+|
+|jmx-blueprint-core
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.blueprint.core-0.2-incubating.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.blueprint.core-0.2-incubating.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.blueprint.core-0.2-incubating.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.blueprint.core-0.2-incubating.jar.sha1">+++sha1+++</a>+++)
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.blueprint.core-0.2-incubating-sources.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.blueprint.core-0.2-incubating-sources.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.blueprint.core-0.2-incubating-sources.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.blueprint.core-0.2-incubating-sources.jar.sha1">+++sha1+++</a>+++)
+|
+
+|
+|jmx-bundle
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx-0.2-incubating.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx-0.2-incubating.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx-0.2-incubating.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx-0.2-incubating.jar.sha1">+++sha1+++</a>+++)
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx-0.2-incubating-sources.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx-0.2-incubating-sources.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx-0.2-incubating-sources.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx-0.2-incubating-sources.jar.sha1">+++sha1+++</a>+++)
+|
+
+|
+|jmx-core
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.core-0.2-incubating.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.core-0.2-incubating.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.core-0.2-incubating.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.core-0.2-incubating.jar.sha1">+++sha1+++</a>+++)
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.core-0.2-incubating-sources.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.core-0.2-incubating-sources.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.core-0.2-incubating-sources.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jmx.core-0.2-incubating-sources.jar.sha1">+++sha1+++</a>+++)
+|
+
+|JNDI
+|
+|0.2
+|-
+|+++<a href="http://archive.apache.org/dist/incubator/aries/jndi-0.2-incubating-source-release.zip">+++zip+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/jndi-0.2-incubating-source-release.zip.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/jndi-0.2-incubating-source-release.zip.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/jndi-0.2-incubating-source-release.zip.sha1">+++sha1+++</a>+++)
+|
+
+|
+|jndi-bundle
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jndi-0.2-incubating.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jndi-0.2-incubating.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jndi-0.2-incubating.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jndi-0.2-incubating.jar.sha1">+++sha1+++</a>+++)
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jndi-0.2-incubating-sources.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jndi-0.2-incubating-sources.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jndi-0.2-incubating-sources.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jndi-0.2-incubating-sources.jar.sha1">+++sha1+++</a>+++)
+|An Uber bundle that collects the jndi-api, jndi-core and jndi-url bundles
+into one
+
+|
+|jndi-core
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jndi.core-0.2-incubating.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jndi.core-0.2-incubating.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jndi.core-0.2-incubating.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jndi.core-0.2-incubating.jar.sha1">+++sha1+++</a>+++)
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jndi.core-0.2-incubating-sources.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jndi.core-0.2-incubating-sources.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jndi.core-0.2-incubating-sources.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jndi.core-0.2-incubating-sources.jar.sha1">+++sha1+++</a>+++)
+|
+
+|
+|jndi-url
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jndi.url-0.2-incubating.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jndi.url-0.2-incubating.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jndi.url-0.2-incubating.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jndi.url-0.2-incubating.jar.sha1">+++sha1+++</a>+++)
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jndi.url-0.2-incubating-sources.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jndi.url-0.2-incubating-sources.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jndi.url-0.2-incubating-sources.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jndi.url-0.2-incubating-sources.jar.sha1">+++sha1+++</a>+++)
+|
+
+|JPA
+|
+|0.2
+|-
+|+++<a href="http://archive.apache.org/dist/incubator/aries/jpa-0.2-incubating-source-release.zip">+++zip+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/jpa-0.2-incubating-source-release.zip.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/jpa-0.2-incubating-source-release.zip.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/jpa-0.2-incubating-source-release.zip.sha1">+++sha1+++</a>+++)
+|
+
+|
+|jpa-api
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jpa.api-0.2-incubating.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jpa.api-0.2-incubating.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jpa.api-0.2-incubating.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jpa.api-0.2-incubating.jar.sha1">+++sha1+++</a>+++)
++++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jpa.api-0.2-incubating-sources.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jpa.api-0.2-incubating-sources.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jpa.api-0.2-incubating-sources.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jpa.api-0.2-incubating-sources.jar.sha1">+++sha1+++</a>+++)
+|
+
+|
+|jpa-blueprint-aries
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jpa.blueprint.aries-0.2-incubating.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jpa.blueprint.aries-0.2-incubating.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jpa.blueprint.aries-0.2-incubating.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jpa.blueprint.aries-0.2-incubating.jar.sha1">+++sha1+++</a>+++)
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jpa.blueprint.aries-0.2-incubating-sources.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jpa.blueprint.aries-0.2-incubating-sources.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jpa.blueprint.aries-0.2-incubating-sources.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jpa.blueprint.aries-0.2-incubating-sources.jar.sha1">+++sha1+++</a>+++)
+|
+
+|
+|jpa-container
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jpa.container-0.2-incubating.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jpa.container-0.2-incubating.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jpa.container-0.2-incubating.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jpa.container-0.2-incubating.jar.sha1">+++sha1+++</a>+++)
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jpa.container-0.2-incubating-sources.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jpa.container-0.2-incubating-sources.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jpa.container-0.2-incubating-sources.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jpa.container-0.2-incubating-sources.jar.sha1">+++sha1+++</a>+++)
+|
+
+|
+|jpa-container-context
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jpa.container.context-0.2-incubating.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jpa.container.context-0.2-incubating.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jpa.container.context-0.2-incubating.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jpa.container.context-0.2-incubating.jar.sha1">+++sha1+++</a>+++)
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jpa.container.context-0.2-incubating-sources.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jpa.container.context-0.2-incubating-sources.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jpa.container.context-0.2-incubating-sources.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.jpa.container.context-0.2-incubating-sources.jar.sha1">+++sha1+++</a>+++)
+|
+
+|Quiesce
+|
+|0.2
+|-
+|+++<a href="http://archive.apache.org/dist/incubator/aries/quiesce-0.2-incubating-source-release.zip">+++zip+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/quiesce-0.2-incubating-source-release.zip.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/quiesce-0.2-incubating-source-release.zip.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/quiesce-0.2-incubating-source-release.zip.sha1">+++sha1+++</a>+++)
+|
+
+|
+|quiesce-api
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.quiesce.api-0.2-incubating.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.quiesce.api-0.2-incubating.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.quiesce.api-0.2-incubating.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.quiesce.api-0.2-incubating.jar.sha1">+++sha1+++</a>+++)
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.quiesce.api-0.2-incubating-sources.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.quiesce.api-0.2-incubating-sources.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.quiesce.api-0.2-incubating-sources.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.quiesce.api-0.2-incubating-sources.jar.sha1">+++sha1+++</a>+++)
+|
+
+|
+|quiesce-manager
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.quiesce.manager-0.2-incubating.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.quiesce.manager-0.2-incubating.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.quiesce.manager-0.2-incubating.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.quiesce.manager-0.2-incubating.jar.sha1">+++sha1+++</a>+++)
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.quiesce.manager-0.2-incubating-sources.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.quiesce.manager-0.2-incubating-sources.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.quiesce.manager-0.2-incubating-sources.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.quiesce.manager-0.2-incubating-sources.jar.sha1">+++sha1+++</a>+++)
+|
+
+|Transaction
+|
+|0.2
+|-
+|+++<a href="http://archive.apache.org/dist/incubator/aries/transaction-0.2-incubating-source-release.zip">+++zip+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/transaction-0.2-incubating-source-release.zip.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/transaction-0.2-incubating-source-release.zip.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/transaction-0.2-incubating-source-release.zip.sha1">+++sha1+++</a>+++)
+|
+
+|
+|transaction-blueprint
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.transaction.blueprint-0.2-incubating.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.transaction.blueprint-0.2-incubating.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.transaction.blueprint-0.2-incubating.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.transaction.blueprint-0.2-incubating.jar.sha1">+++sha1+++</a>+++)
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.transaction.blueprint-0.2-incubating-sources.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.transaction.blueprint-0.2-incubating-sources.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.transaction.blueprint-0.2-incubating-sources.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.transaction.blueprint-0.2-incubating-sources.jar.sha1">+++sha1+++</a>+++)
+|
+
+|
+|transaction-manager
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.transaction.manager-0.2-incubating.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.transaction.manager-0.2-incubating.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.transaction.manager-0.2-incubating.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.transaction.manager-0.2-incubating.jar.sha1">+++sha1+++</a>+++)
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.transaction.manager-0.2-incubating-sources.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.transaction.manager-0.2-incubating-sources.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.transaction.manager-0.2-incubating-sources.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.transaction.manager-0.2-incubating-sources.jar.sha1">+++sha1+++</a>+++)
+|
+
+|
+|transaction-wrappers
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.transaction.wrappers-0.2-incubating.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.transaction.wrappers-0.2-incubating.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.transaction.wrappers-0.2-incubating.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.transaction.wrappers-0.2-incubating.jar.sha1">+++sha1+++</a>+++)
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.transaction.wrappers-0.2-incubating-sources.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.transaction.wrappers-0.2-incubating-sources.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.transaction.wrappers-0.2-incubating-sources.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.transaction.wrappers-0.2-incubating-sources.jar.sha1">+++sha1+++</a>+++)
+|
+
+|Util
+|
+|0.2
+|-
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.util-0.2-incubating-source-release.zip">+++zip+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.util-0.2-incubating-source-release.zip.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.util-0.2-incubating-source-release.zip.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.util-0.2-incubating-source-release.zip.sha1">+++sha1+++</a>+++)
+|
+
+|
+|-
+|0.2
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.util-0.2-incubating.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.util-0.2-incubating.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.util-0.2-incubating.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.util-0.2-incubating.jar.sha1">+++sha1+++</a>+++)
+|+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.util-0.2-incubating-sources.jar">+++jar+++</a>+++ (+++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.util-0.2-incubating-sources.jar.asc">+++asc+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.util-0.2-incubating-sources.jar.md5">+++md5+++</a>+++, +++<a href="http://archive.apache.org/dist/incubator/aries/org.apache.aries.util-0.2-incubating-sources.jar.sha1">+++sha1+++</a>+++)
+|
+|===

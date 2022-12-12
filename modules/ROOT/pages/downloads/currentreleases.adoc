@@ -1,0 +1,50 @@
+= Downloads
+
+== General information
+
+Apache Aries modules are distributed in source and binary form.
+These link:https://www.apache.org/dist/aries/KEYS[KEYS] can be used to verify the releases.
+
+All Apache Aries products are distributed under the terms of The Apache Software License (version 2.0).
+See the LICENSE file included in each distribution for additional license information.
+
+== Official downloads
+
+The official downloads for Apache projects are hosted at Apache.
+For maven users we recommend to simply refer to the  individual maven artifacts instead of downloading by hand.
+
+link:https://www.apache.org/dist/aries/[Official Aries Downloads]
+
+== Maven central
+
+All Aries modules are released to link:https://search.maven.org[maven central].
+
+The Aries subprojects can be found at these locations
+
+* link:https://search.maven.org/#search|ga|1|g%3Aorg.apache.aries.async[async]
+* link:https://search.maven.org/#search|ga|1|g%3Aorg.apache.aries.blueprint[blueprint]
+* link:https://search.maven.org/#artifactdetails|org.apache.aries|eba-maven-plugin|1.0.0|maven-plugin[eba-maven-plugin]
+* link:https://search.maven.org/#search|ga|1|g%3Aorg.apache.aries.ejb[ejb]
+* link:https://search.maven.org/#search|ga|1|g%3Aorg.apache.aries.jmx[jmx]
+* link:https://search.maven.org/#search|ga|1|g%3Aorg.apache.aries.jndi[jndi]
+* link:https://search.maven.org/#search|ga|1|g%3Aorg.apache.aries.jpa[jpa]
+* link:https://search.maven.org/#search|ga|1|g%3Aorg.apache.aries.proxy[proxy]
+* link:https://search.maven.org/#search|ga|1|g%3Aorg.apache.aries.quiesce[quiesce]
+* link:https://search.maven.org/#search|ga|1|g%3Aorg.apache.aries.subsystem[subsystem]
+* link:https://search.maven.org/#search|ga|1|g%3Aorg.apache.aries.testsupport[testsupport]
+* link:https://search.maven.org/#search|ga|1|g%3Aorg.apache.aries.transaction[transaction]
+* link:https://search.maven.org/#search|ga|1|g%3Aorg.apache.aries.util[util]
+* link:https://search.maven.org/#search|ga|1|g%3Aorg.apache.aries.web[web]
+
+== Apache Karaf
+
+link:https://karaf.apache.org[Apache Karaf] is a modular OSGi server that integrates very well with Aries.
+Most aries subprojects can be installed into Apache Karaf using features.
+For example *feature:install jndi* installs the Aries jndi modules.
+
+== Samples
+
+The easiest way to use the samples is to download the source zip, navigate to the appropriate 'assembly' module and run mvn install to download all the released  binary artifacts.
+Alternatively you can build the entire source.
+
+link:https://www.apache.org/dyn/closer.cgi/aries/samples-1.0.0-source-release.zip[Aries Samples]

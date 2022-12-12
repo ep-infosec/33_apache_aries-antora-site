@@ -1,0 +1,23 @@
+= October 2013 Board report
+
+Apache Aries delivers a set of pluggable Java components enabling an enterprise OSGi application programming model.
+
+== Releases
+
+* Apache Aries Blueprint Parser 1.1.0
+
+Reusable component for parsing Blueprint xmls.
+
+* Apache Aries Blueprint Core 1.2.0  Core of the implementation of the OSGi Blueprint Container Specification
+
+Currently being voted on:
+
+* Apache Aries Blueprint CM 1.0.2
+
+Integration of OSGi Blueprint with the OSGi Configuration Admin Service.
+
+== Project update
+
+There has been a variety of discussion traffic on the dev and user lists primarily across blueprint, trasnaction, esa-maven-plugin, jpa, subsystem.
+
+There are no board level issues.

@@ -1,0 +1,248 @@
+= People
+
+This is a list of the people involved in the Apache Aries Incubator and their roles.
+
+[cols="3*",opts="headers"]
+|===
+|Name
+|Organization
+|PMC Member
+
+
+|Adam Wojtuniak
+|Ericsson
+|
+
+|Alan Cabrera
+|LinkedIn
+|
+
+|Alan Keane
+|Ericsson
+|
+
+|Alasdair Nottingham
+|IBM
+|image:check.gif[]
+
+|Andrew Osborne
+|IBM
+|image:check.gif[]
+
+|Bartosz Kowalewski
+|
+|
+
+|Bernd Kolb
+|SAP
+|image:check.gif[]
+
+|Bertrand Delacretaz
+|
+|
+
+|Carlos Sierra Andrés
+|
+|image:check.gif[]
+
+|Carsten Ziegeler
+|
+|image:check.gif[]
+
+|Chris Wilkinson
+|IBM
+|
+
+|Christian Schneider
+|Talend
+|image:check.gif[]
+
+|Dan Kulp
+|Talend
+|image:check.gif[]
+
+|David Bosschaert
+|Adobe
+|image:check.gif[]
+
+|David Jencks
+|IBM
+|image:check.gif[]
+
+|Davanum Srinivas (Dims)
+|IBM
+|image:check.gif[]
+
+|Dimo Stoilov
+|SAP
+|image:check.gif[]
+
+|Dominik Przybysz
+|TouK
+|image:check.gif[]
+
+|Emily Jiang
+|IBM
+|image:check.gif[]
+
+|Eoghan Glynn
+|
+|image:check.gif[]
+
+|Felix Meschberger
+|Adobe
+|
+
+|Giuseppe Gerla
+|
+|
+
+|Graham Charters
+|IBM
+|image:check.gif[]
+
+|Grzegorz Grzybek
+|
+|image:check.gif[]
+
+|Guillaume Nodet
+|Progress
+|image:check.gif[]
+
+|Hiram Chirino
+|Progress
+|image:check.gif[]
+
+|Holly Cummins
+|IBM
+|image:check.gif[]
+
+|Ian Robinson
+|IBM
+|image:check.gif[]
+
+|James Strachan
+|Progress
+|image:check.gif[]
+
+|Jarek Gawor
+|IBM
+|image:check.gif[]
+
+|Jean-Baptiste Onofré
+|Talend
+|image:check.gif[]
+
+|Jean-Sebastien Delfino
+|IBM
+|image:check.gif[]
+
+|Jeremy Hughes
+|IBM
+|image:check.gif[]
+
+|Joe Bohn
+|IBM
+|image:check.gif[]
+
+|John Ross
+|IBM
+|image:check.gif[]
+
+|Kevan Miller
+|
+|image:check.gif[]
+
+|Lei "Rex" Wang
+|IBM
+|
+
+|Lin Sun
+|IBM
+|image:check.gif[]
+
+|Kiril Mitov
+|SAP
+|image:check.gif[]
+
+|Mark Nuttall
+|IBM
+|image:check.gif[]
+
+|Niclas Hedhman
+|
+|
+
+|Niklas Gustavsson
+|
+|image:check.gif[]
+
+|Nikolai Tankov
+|SAP
+|image:check.gif[]
+
+|Oisin Hurley
+|
+|image:check.gif[]
+
+|Peter Peshev
+|SAP
+|image:check.gif[]
+
+|Raymond Augé
+|
+|image:check.gif[]
+
+|Raymond Feng
+|IBM
+|image:check.gif[]
+
+|Rick McGuire
+|
+|image:check.gif[]
+
+|Roman Roelofsen
+|ProSyst
+|image:check.gif[]
+
+|Sabine Heider
+|SAP
+|image:check.gif[]
+
+|Sergey Beryozkin
+|Talend
+|image:check.gif[]
+
+|Stuart McCulloch
+|
+|image:check.gif[]
+
+|Timothy Ward
+|
+|image:check.gif[]
+
+|Todor Boev
+|ProSyst
+|image:check.gif[]
+
+|Tom De Wolf
+|
+|
+
+|Tom Watson
+|IBM
+|
+
+|Valentin Mahrwald
+|
+|image:check.gif[]
+
+|Violeta Georgieva
+|SAP
+|image:check.gif[]
+
+|Zoe Slattery
+|
+|image:check.gif[]
+
+|===

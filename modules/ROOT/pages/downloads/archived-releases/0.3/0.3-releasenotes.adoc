@@ -1,0 +1,63 @@
+= Release Notes
+
+== New and Noteworthy
+
+Welcome to the 0.3 release.
+
+* Compliance tests (TBD)
+* https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12310981&version=12315310[JIRA Release Notes]
+
+== New Components
+
+=== Proxy
+
+The proxy component was added in 0.3.
+Proxy allows you to generate proxyies based on interfaces or classes, eg object damping.
+Proxy provides a service to both blueprint and JNDI.
+
+== Major updates
+
+=== Application
+
+The application component in 0.3 provides a runtime in which OSGi applications are isolated from each other, and the provisioning support that it requires.
+These changes mean that the 0.3 release of aplication is significantly different  from the 0.2 release.
+
+The resolver also supports external bundle repositories in 0.3.
+
+=== Blueprint
+
+Blueprint namespace support has been added.
+This makes it possible to look up Blueprint components from Web or  Persistence bundles.
+
+== Modules in this release
+
+* testsupport
+* util
+* proxy
+* quiesce
+* application
+* blueprint
+* transaction
+* jpa
+* jndi
+* jmx
+* web
+* samples
+
+=== New samples
+
+No new samples but we changed the Blog Sample and Aries Trader samples so that no database initialisation is required prior to running the sample.
+
+=== New Tutorials
+
+None
+
+=== API breaking
+
+None.
+
+=== Known Issues
+
+None.
+
+=== Important changes to consider when upgrading

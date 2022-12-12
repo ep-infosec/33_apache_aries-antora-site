@@ -1,0 +1,141 @@
+= Release Notes
+
+== New and Noteworthy
+
+Welcome to the 0.2-incubating release.
+For this release we started running the OSGi Enterprise Compliance tests for relevant components.
+
+* link:/downloads/archived-releases/0.2-incubating/0.2-incubating-testresults.html[Test Results]
+* https://issues.apache.org/jira/secure/releasenote.jspa?projectid=12310981&stylename=html&version=12314941.html[JIRA Release Notes]
+
+== New Components
+
+Quiesce.
+The Quiesce component co-ordinates a graceful shutdown across a number of bundles.
+Quiesce participants respond to quiesce operations and clean up resources.
+In this release, only the JPA component implements a quiesce participant.
+
+== Modules in this release
+
+[cols="4*",opts="headers"]
+|===
+
+|Module
+|Version
+|Depends (build)  on Aries module
+|Version
+
+
+|Application
+|0.2-incubating
+|Util
+|0.2-incubating
+
+|-
+|-
+|Blueprint
+|0.2-incubating
+
+|-
+|-
+|Testsupport
+|0.2-incubating
+
+|-
+|-
+|Web
+|0.2-incubating
+
+|Blueprint
+|0.2-incubating
+|Util
+|0.2-incubating
+
+|Eba-maven-plugin
+|0.2-incubating
+|
+|
+
+|JMX
+|0.2-incubating
+|Util
+|0.2-incubating
+
+|-
+|-
+|Blueprint
+|0.2-incubating
+
+|JNDI
+|0.2-incubating
+|Util
+|0.2-incubating
+
+|-
+|-
+|Testsupport
+|0.2-incubating
+
+|JPA
+|0.2-incubating
+|Util
+|0.2-incubating
+
+|-
+|-
+|Blueprint
+|0.2-incubating
+
+|-
+|-
+|Testsupport
+|0.2-incubating
+
+|-
+|-
+|Quiesce
+|0.2-incubating
+
+|Quiesce
+|0.2-incubating
+|Util
+|0.2-incubating
+
+|-
+|-
+|Testsupport
+|0.2-incubating
+
+|Transaction
+|0.2-incubating
+|Blueprint
+|0.2-incubating
+
+|-
+|-
+|Testsupport
+|0.2-incubating
+
+|Util
+|0.2-incubating
+|Testsupport
+|0.2-incubating
+|===
+
+== New samples
+
+No new samples but we changed the Blog Sample and Aries Trader samples so that no database initialisation is required prior to running the sample.
+
+== New Tutorials
+
+None
+
+== API breaking
+
+None.
+
+== Known Issues
+
+link:-https://issues.apache.org/jira/secure/issuenavigator.jspa?mode=hide&requestid=12314569.html[JIRA query for known issues in the 0.2-incubating release]
+
+== Important changes to consider when upgrading
